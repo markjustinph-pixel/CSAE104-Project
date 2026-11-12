@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "header1 header1"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  row-gap: 3px;
+  background-color: dodgerblue;
+  padding: 5px;
+}
+.container div {
+  background-color: white;
+  padding: 10px;
+}
+.container div.header {
+  display: flex;
+  grid-area: header;
+  text-align: center;
+}
+.container div.header1 {
+  grid-area: header1;
+  text-align: center;
+}
+.container div.menu {
+  grid-area: menu;
+  width:500px;
+}
+.container div.content {
+  grid-area: content;
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.img {
+  align-items: center;
+}
+h4{
+  text-align: center;
+}
+.messagebox {
+  width: 100%;
+  padding: 60px;
+  box-sizing: border-box;
+}
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header"><img src="DMMMSU_LOGO.png" alt="HTML-Images" width="100" height="100">
+    <h2>DON MARIANO MARCOS MEMORIAL STATE UNIVERSITY</h2></div>
+<div class="header1"><h3><a href="home.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</h3></a></div>
+  <div class="menu">
+    <h4>Campus Notice</h4>
+    <br>
+    <img src="Fried.jpg" alt="HTML" width="100" height="100">
+<img src="Gym.jpg" alt="HTML" width="100" height="100">
+<img src="Adobo.jpg" alt="HTML" width="100" height="100 ">
+  </div>
+  <div class="content">
+    <label for ="Title"><h3>Title:</h3></label>
+    <input type="text" id="Title" name="Title"><br><br>
+    <label for ="message"><h3>Message:</h3></label>
+    <input type="text" class="messagebox" id="message" name="message"><br><br>
+    <button type="submit" class="btn"><h3>Post Notice</h3></button>
+  </div>
+  <div class="footer"><h4>COLLEGE OF COMPUTER STUDIES</h4></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    background-color:greenyellow
+}
+header.solid{
+    border-style:solid;
+    color:rgb(90, 61, 117);
+    
+}
+h1{
+    font-family: Arial;
+    font-size:16px;
+}
+img{
+    width:400px;
+    height:400px;
+}
+style1{
+    border:Solid 10px;
+    padding:16px;
+    margin:50px;
+}
+label{
+    display:block;
+    margin-top:10px;
+    background-color: DodgerBlue;
+    font-size: 20px;
+}
+input[type="text"] {
+padding: 12px 20px 12px 40px; /* Adjust the values to your preference */
+}
+input[type="password"] {
+padding: 12px 20px 12px 40px; /* Adjust the values to your preference */
+}
